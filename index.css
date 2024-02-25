@@ -1,0 +1,53 @@
+body {
+    background-image: url("sky.JPG");
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+}
+
+main {
+    background: white;
+    max-width: 80%;
+    margin: auto;   /* to auto align center */
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border-width: 3px;
+    border-color: black;
+    border-style:ridge;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: #C27BA0;
+}
+
+#save-btn {
+    background: #33337A;
+}
+
+#save-el {
+    font-weight: bold;
+}
